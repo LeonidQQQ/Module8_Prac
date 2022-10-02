@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Nautilus Pompilius';
+    src: url('fonts/NautilusPompilius.woff2') format('woff2'), url('fonts/NautilusPompilius.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gagalin';
+    src: url('fonts/Gagalin-Regular.woff2') format('woff2'), url('fonts/Gagalin-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marck Script';
+    src: url('fonts/MarckScript-Regular.woff2') format('woff2'), url('fonts/MarckScript-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 99%;
+}
+
+p {
+    font-family: 'Marck Script';
+}
+
+.greetings,
+h1 {
+    font-family: 'Nautilus Pompilius';
+}
+
+h3 {
+    font-family: 'Gagalin';
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #faf5ee;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    margin-bottom: 3em;
+    background-color: #b0eee9;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Nautilus Pompilius';
+    font-size: 2rem;
+    color: #145268;
+    font-weight: 1000;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    width: 0.1px
+    heigth: 0.1px
+    margin-top: 100px;
+    padding-left: 15px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    margin-top: 2em;
+}
+
+
+p {
+    font-size: 1.5rem;
+    color: #08298A;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: #0f2f3b;
+    font-size: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+}
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.downImg {
+    padding-left: 150px;
+}
+
+.footer {
+    background-color: #b0eee9;
+    flex: 0 0 auto;
+}
